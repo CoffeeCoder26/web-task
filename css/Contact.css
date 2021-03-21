@@ -1,0 +1,48 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #f6f6f6;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-image: url("Images/Contact.jpg");
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+.ContactUs {
+    display: block;
+}
+
+form {
+    text-align: center;
+    font-size: 20px;
+}
+
+input[type="text"] {
+    font-size: 15px;
+    color: black;
+    width: 30%;
+    padding: 8px;
+    margin: 2px;
+    border: 2px solid black;
+}
+
+input[type="email"] {
+    font-size: 15px;
+    width: 30%;
+    padding: 8px;
+    margin: 2px;
+    border: 2px solid black;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+}

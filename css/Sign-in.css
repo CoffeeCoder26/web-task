@@ -1,0 +1,85 @@
+        body {
+            background-color: #351f39;
+            font-family: sans-serif;
+            font-size: 15px;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            overflow: hidden;
+        }
+        
+        a {
+            font-size: 15px;
+        }
+        
+        a:link,
+        a:visited {
+            background-color: wheat;
+            color: black;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        a:hover,
+        a:active {
+            background-color: white;
+        }
+        
+        form {
+            display: inline-block;
+        }
+        
+        .Sign-in {
+            text-align: center;
+            width: 50%;
+            padding: 10px 290px 30% 290px;
+        }
+        
+        input[type=text] {
+            color: black;
+            font-size: 15px;
+            width: 70%;
+            padding: 10px;
+            margin: 2px;
+            border: 2px solid black;
+            left: 10px;
+        }
+        
+        input[type=password] {
+            color: black;
+            font-size: 15px;
+            width: 70%;
+            padding: 10px;
+            margin: 2px;
+            border: 2px solid black;
+        }
+        /* .reset {
+            background-color: #4CAF50;
+             Green 
+            border: none;
+            color: black;
+            padding: 16px 32px;
+            text-align: center;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+        }
+       */
+        
+        input[type=submit] {
+            background-color: #fcf8e8;
+            color: black;
+            font-weight: bold;
+            padding: 12px 20px;
+            padding-right: 15px;
+        }
+        
+        input[type=reset] {
+            background-color: #fcf8e8;
+            color: black;
+            font-weight: bold;
+            padding: 12px 20px;
+            padding-right: 15px;
+        }
